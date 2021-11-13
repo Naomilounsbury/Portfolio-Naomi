@@ -164,7 +164,7 @@ flex-direction: row;
   overflow:auto;
 }
 .project-img{
-
+  
   float: left;
   opacity:40%;
 }
@@ -193,7 +193,7 @@ flex-direction: row;
 }
 
 
-/* contact info */
+/* reach out styles start */
 .contact {
     margin: 0 auto 30px auto;
     padding: 60px;

@@ -156,7 +156,7 @@ justify-content: space-between;
 flex-direction: row;
 }
 .project-box {
- 
+  width: 550px;
   margin: 0 auto 30px auto;
   background-color: skyblue;
   color: rgb(131, 9, 121);
@@ -164,7 +164,8 @@ flex-direction: row;
   overflow:auto;
 }
 .project-img{
-
+  width:35%;
+  height: 200px;
   float: left;
   opacity:40%;
 }
@@ -193,7 +194,7 @@ flex-direction: row;
 }
 
 
-/* contact info */
+/* reach out styles start */
 .contact {
     margin: 0 auto 30px auto;
     padding: 60px;
