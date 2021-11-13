@@ -11,17 +11,15 @@ body{
 header {
     padding:20px 35px;
     background-color: #0a5c23;
-    text-align: center;
     display:flex;
     justify-content: space-between;
-    flex-wrap:wrap;
 }
 header h1 {
     font-weight: bold;
-    font-size: 6.55vw;
+    font-size: 78px;
     color: #808be9;
     margin: 0;
-    display:flex;
+    display:block;
     text-align: center;
   }
 header img {
@@ -31,9 +29,6 @@ header img {
     outline-width: 5px;
     outline-color: salmon;
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-
 
 }
   
@@ -45,28 +40,21 @@ header nav {
     float:right;
     margin:7px 0;
 }
-header nav ul  {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style:none;
+header nav ul li {
+    display:inline;
 }
 header nav ul li a {
     margin:0px 30px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 22px;
 }
 /* header nav bar end */
 /* footer start */
 footer {
     background: #0a5c23;
-    content: 20%;
+    ;
     width: 100%;
     padding: 40px 35px;
-    display:flex;
-    flex-wrap: wrap-reverse;
-
   }
 footer h3 {
     display: block;
@@ -78,7 +66,7 @@ footer h3 {
 footer iframe {
     width: 400px;
     height: 300px;
-    content: center;
+    align-content: center;
   }
 
   /* footer end  */
@@ -143,17 +131,16 @@ footer iframe {
 /* section title styles */
 
 .section-title {
-    text-align: center;
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
 }
 
 .primary-border {
-  border-color: #71c52c;
+  border-color: #fce138;
 }
 
 .secondary-border {
@@ -163,7 +150,7 @@ footer iframe {
 
 /*What We do Section*/
 .about {
-  text-align: left;
+  text-align: center;
   background-color: aquamarine;
 }
 
