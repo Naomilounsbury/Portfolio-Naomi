@@ -157,19 +157,12 @@ border-color: aquamarine;
     flex-direction: row;
 
     }
-    .project h2 {
-        display:block ;
-    }
     .project-box {
     margin: 0 auto 30px auto;
     background-color: skyblue;
     color: rgb(131, 9, 121);
-    width:400px;
-    height: 600px;
     flex-grow: 1;
     overflow: auto;
-    padding:60px;
-    margin-left: 15px;
       
     }
     .project-img{

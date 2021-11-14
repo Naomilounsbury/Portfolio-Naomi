@@ -149,7 +149,7 @@ border-color: aquamarine;
 
 /*projects I've worked on*/
 .project{
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     position:relative;
     align-items: center;
@@ -168,8 +168,6 @@ border-color: aquamarine;
     height: 600px;
     flex-grow: 1;
     overflow: auto;
-    padding:60px;
-    margin-left: 15px;
       
     }
     .project-img{
