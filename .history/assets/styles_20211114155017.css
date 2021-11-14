@@ -68,20 +68,17 @@ footer {
 
     width: 100%;
     padding: 40px 35px;
-    display:block;
+    display:flex;
     justify-content: center;
-    position: relative;
-    text-align: center;
+    flex-wrap: wrap;
 
   }
 footer h3 {
-    
+    display: flex;
     color: #db1fc2;
     font-size: 16px;
-    margin: 15px;
-    padding:60px;
-
-
+    margin: 0;
+    text-align: center;
   }
 footer iframe {
     width: 400px;

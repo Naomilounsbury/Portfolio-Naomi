@@ -70,8 +70,7 @@ footer {
     padding: 40px 35px;
     display:block;
     justify-content: center;
-    position: relative;
-    text-align: center;
+    flex-wrap: wrap;
 
   }
 footer h3 {

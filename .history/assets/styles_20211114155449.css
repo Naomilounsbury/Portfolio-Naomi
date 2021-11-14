@@ -68,10 +68,9 @@ footer {
 
     width: 100%;
     padding: 40px 35px;
-    display:block;
+    display:flex;
     justify-content: center;
-    position: relative;
-    text-align: center;
+    flex-wrap: wrap;
 
   }
 footer h3 {
@@ -80,7 +79,7 @@ footer h3 {
     font-size: 16px;
     margin: 15px;
     padding:60px;
-
+    
 
   }
 footer iframe {
