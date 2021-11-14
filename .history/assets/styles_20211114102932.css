@@ -1,0 +1,204 @@
+
+
+*{
+    margin:0px;
+    border:0px;
+    box-sizing:border-box
+}
+body{
+  color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+  /*apply to header*/
+header {
+    padding:20px 35px;
+    background-color: #61ad78;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 6.55vw;
+    color: #808be9;
+    margin: 20px;
+    display:flex;
+    text-align: center;
+  }
+header img {
+    width:15%;
+    border-style: outset;
+    border-radius: 5px;
+    outline-width: 5px;
+    outline-color: salmon;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+
+
+}
+  
+header a {
+    text-decoration: none;
+    color: #355394;
+  }
+header nav {
+    float:right;
+    margin:7px 0;
+}
+header nav ul  {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+}
+header nav ul li a {
+    margin:0px 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+/* header nav bar end */
+/* footer start */
+footer {
+    background: #0a5c23;
+
+    width: 100%;
+    padding: 40px 35px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+footer h3 {
+    display: flex;
+    color: #db1fc2;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+  }
+footer iframe {
+    width: 400px;
+    height: 300px;
+  }
+
+  /* footer end  */
+  /* all section tags */
+  section {
+    padding: 60px;
+  }
+ 
+/* section title styles */
+
+.section-title {
+    text-align: center;
+    font-size: 55px;
+    color: #8c1e9b;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: flex;
+    flex-grow: 5%;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #71c52c;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+   
+}
+
+/*The "about me" section, I think I need to add a media query to the background image*/
+
+.about {
+content: normal;
+display: flex;
+flex-wrap: wrap;
+padding: 60px;
+position: relative;
+text-align: center;
+border-color: aquamarine;
+}
+/* I didnt wrap the background picture because I didn't really know how */
+.about::before {
+    content: "";
+    background-image: url(./images/uzbekistanmadrasa.jpg);
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+    opacity:35%;
+
+}
+
+.about p{
+  line-height: 1.7pw;
+  color:rgb(0, 0, 0);
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+  margin: 0 0 0 0;
+}
+
+/*projects I've worked on*/
+.project{
+    /* makes the background color blue */
+    background-color: cornflowerblue;
+
+}
+
+.project.box {
+    width: 30%;
+
+}
+    
+
+
+.project-img{
+    width:200px;
+    height:300px;
+    object-fit: ;
+
+
+}
+.project-info{
+  padding:20px;
+  float:left;
+  width:95%;
+}
+.project-info h3 {
+
+  font-size: 50px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.project-info h4 {
+  font-weight: lighter;
+  font-size: 26px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.project-info p {
+  font-size: 2.55pw;
+  line-height: 1.3;
+}
+
+
+/* contact info */
+.contact {
+    margin: 0 auto 30px auto;
+    padding: 60px;
+  text-align:left;
+  background:salmon;
+  display:flex;
+  flex-grow: 2;
+  box-sizing:border-box;
+  width:95%;
+}
