@@ -1,4 +1,4 @@
-
+@media screen and (max-width: 980px) {
 
 *{
     margin:0px;
@@ -63,11 +63,10 @@ header nav ul li a {
 /* footer start */
 footer {
     background: #0a5c23;
-
     width: 100%;
     padding: 40px 35px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 
   }
@@ -81,6 +80,7 @@ footer h3 {
 footer iframe {
     width: 400px;
     height: 300px;
+    align-items: center;
   }
 
   /* footer end  */
@@ -136,6 +136,7 @@ border-color: aquamarine;
 
 }
 
+}
 .about p{
   line-height: 1.7pw;
   color:rgb(0, 0, 0);
