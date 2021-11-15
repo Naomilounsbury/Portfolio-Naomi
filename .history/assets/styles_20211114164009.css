@@ -18,11 +18,10 @@ header {
     justify-content: space-between;
     flex-wrap:wrap;
     position:relative;
-    
 }
 header h1 {
     font-weight: bold;
-    font-size: 55px;
+    font-size: 6.55vw;
     color: #808be9;
     margin: 20px;
     display:flex;
@@ -30,7 +29,7 @@ header h1 {
     position: relative;
   }
 header img {
-    width:200px;
+    width:15%;
     border-style: outset;
     border-radius: 5px;
     outline-width: 5px;
@@ -60,7 +59,7 @@ header nav ul  {
 header nav ul li a {
     margin:0px 30px;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 1.55vw;
 }
 /* header nav bar end */
 /* footer start */
@@ -102,13 +101,20 @@ footer iframe {
     font-size: 55px;
     color: #8c1e9b;
     margin-bottom: 35px;
-
+    padding: 0 100px 20px 100px;
     display: flex;
     flex-grow: 5%;
     border-bottom: 3px solid;
 }
 
+.primary-border {
+  border-color: #71c52c;
+}
 
+.secondary-border {
+  border-color: #39a6b2;
+   
+}
 
 /*The "about me" section, I think I need to add a media query to the background image*/
 
@@ -215,21 +221,12 @@ border-color: aquamarine;
 
 /* contact info */
 .contact {
-    margin: 0 0 0 0;
+    margin: 0 auto 60px auto;
     padding: 60px;
   text-align:left;
   background:salmon;
- 
-  position:relative;
+  display:flex;
+  flex-grow: 2;
   box-sizing:border-box;
   width:95%;
-}
-.contact ul {
-    display:flex;
-    flex-wrap:wrap;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    list-style:none;
-
 }
