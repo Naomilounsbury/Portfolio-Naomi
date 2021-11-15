@@ -176,7 +176,7 @@ border-color: aquamarine;
     background-color: skyblue;
     color: rgb(131, 9, 121);
     width:400px;
-    height: 400px;
+    height: 600px;
     flex-grow: 1;
     overflow: auto;
     padding:60px;

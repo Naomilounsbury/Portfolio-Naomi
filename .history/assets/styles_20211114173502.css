@@ -160,14 +160,14 @@ border-color: aquamarine;
     }
     .project-box1{
         
-   margin: 0 auto 30px auto;;
+    margin: 0 0 0 0;
     background-color: skyblue;
     color: rgb(131, 9, 121);
     width:100%;
     height: 400px;
     flex-grow: 1;
     overflow: auto;
-    padding:60px;
+    padding:0;
     margin-left: 15px;
 
     }
@@ -176,7 +176,7 @@ border-color: aquamarine;
     background-color: skyblue;
     color: rgb(131, 9, 121);
     width:400px;
-    height: 400px;
+    height: 600px;
     flex-grow: 1;
     overflow: auto;
     padding:60px;
@@ -194,7 +194,7 @@ border-color: aquamarine;
     }
     
     .project-info{
-        padding: 10px;
+        padding: 20px;
         float: left;
         width: 95%;
     }
@@ -228,14 +228,14 @@ border-color: aquamarine;
 
 /* contact info */
 .contact {
-    margin: 0 60px 30px 0;
-padding: 60px;
-  text-align:center;
+    margin: 0 0 0 0;
+    padding: 60px;
+  text-align:left;
   background:salmon;
  
   position:relative;
   box-sizing:border-box;
-  width:100%;
+  width:95%;
 }
 .contact ul {
     display:flex;
